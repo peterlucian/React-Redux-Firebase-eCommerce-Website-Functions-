@@ -4,8 +4,9 @@ const express = require('express');
 const cors = require('cors');
 const paypal = require("@paypal/checkout-server-sdk");
 const admin = require('firebase-admin');
+
 admin.initializeApp({
-  "HERE GOES FIREBASE CONFIG"
+"HERE GOES THE FIREBASE CONFIG"
 });
 
 const app = express();
